@@ -1,0 +1,144 @@
+*{
+    margin: 0px ;
+}
+
+
+body{
+    background-color: purple;
+    color:white;
+    font family: 'Merriweather', serif;
+    font
+}
+.menu {
+    height: inherit;
+}
+.header li{
+   height: inherit; 
+}
+h1{
+    font family: 'Merriweather', serif;
+    font-size:30px;
+
+}
+h1 strong{
+    color: purple;
+}
+.padre{
+    background: rgb(0, 255, 115);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hijo{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(174, 0, 255);
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header a{
+color: white ;
+text-decoration: none;
+height: inherit;
+display: flex;
+align-items: center;
+padding: 0px 10px  ;
+}
+
+
+.header{
+    background-color:brown;
+    color: gold;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    padding: 10px;
+}
+.logo img{
+width: 100px;
+}
+.principal{
+    background-color:rgb(0, 128, 117);
+    background-image:url(img/fondo\ pag.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+text-align: center;
+color: black;
+padding: 100px;
+height: 500px;
+
+}
+.principal image{
+    width: 300px;
+}
+.principal-boto{
+ width: 250px;
+ height: 40px;
+ background-color: purple;
+ border-radius: 24px;
+ border:none;
+ font-size: 20px;
+ cursor: pointer;
+ margin-top: 30px;
+}
+
+.container1{
+    display:flex;
+    background: blue;
+    padding: 20px;
+}
+.container2{
+    background: black;
+}
+.col1-container1{
+width: 400px;
+}
+.col2-container1{
+width: 200px;
+
+}
+.col3-container1{
+    
+
+}
+
+.es{
+background-color: rgb(30, 27, 197);
+color: yellow;
+text-align: center;
+padding: 50px;
+font-size: 20px;
+}
+.somos h2{
+    color: purple;
+}
+.terceary{
+    background-color:blue ;
+    color: rgb(255, 102, 0);
+ text-align: left;}
+
+ .secundary{
+     text-align: center;
+     font-size: 20px;
+     padding: 150px;
+ }
+ p{
+     padding: 50px;
+ }
+ .imagen{
+     padding-right:20px ;
+ }
